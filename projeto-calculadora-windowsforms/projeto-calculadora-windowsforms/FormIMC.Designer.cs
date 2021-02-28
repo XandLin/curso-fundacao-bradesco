@@ -39,6 +39,7 @@ namespace projeto_calculadora_windowsforms
             this.label4 = new System.Windows.Forms.Label();
             this.comboAltura = new System.Windows.Forms.ComboBox();
             this.textDiscricao = new System.Windows.Forms.TextBox();
+            this.butEnter = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // butVolta
@@ -83,7 +84,7 @@ namespace projeto_calculadora_windowsforms
             // textResult
             // 
             this.textResult.ForeColor = System.Drawing.Color.DarkOrange;
-            this.textResult.Location = new System.Drawing.Point(35, 260);
+            this.textResult.Location = new System.Drawing.Point(36, 251);
             this.textResult.Name = "textResult";
             this.textResult.Size = new System.Drawing.Size(45, 20);
             this.textResult.TabIndex = 5;
@@ -151,12 +152,27 @@ namespace projeto_calculadora_windowsforms
             // 
             // textDiscricao
             // 
+            this.textDiscricao.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
             this.textDiscricao.ForeColor = System.Drawing.Color.DarkOrange;
-            this.textDiscricao.Location = new System.Drawing.Point(80, 280);
+            this.textDiscricao.Location = new System.Drawing.Point(81, 274);
             this.textDiscricao.Multiline = true;
             this.textDiscricao.Name = "textDiscricao";
-            this.textDiscricao.Size = new System.Drawing.Size(130, 60);
+            this.textDiscricao.Size = new System.Drawing.Size(129, 35);
             this.textDiscricao.TabIndex = 17;
+            this.textDiscricao.TextChanged += new System.EventHandler(this.textDiscricao_TextChanged);
+            // 
+            // butEnter
+            // 
+            this.butEnter.BackgroundImage = global::projeto_calculadora_windowsforms.Properties.Resources.botao;
+            this.butEnter.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.butEnter.ForeColor = System.Drawing.Color.DarkOrange;
+            this.butEnter.Location = new System.Drawing.Point(212, 226);
+            this.butEnter.Name = "butEnter";
+            this.butEnter.Size = new System.Drawing.Size(60, 30);
+            this.butEnter.TabIndex = 18;
+            this.butEnter.Text = "Enter";
+            this.butEnter.UseVisualStyleBackColor = true;
+            this.butEnter.Click += new System.EventHandler(this.butEnter_Click);
             // 
             // FormIMC
             // 
@@ -164,6 +180,7 @@ namespace projeto_calculadora_windowsforms
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::projeto_calculadora_windowsforms.Properties.Resources.fundo;
             this.ClientSize = new System.Drawing.Size(284, 411);
+            this.Controls.Add(this.butEnter);
             this.Controls.Add(this.textDiscricao);
             this.Controls.Add(this.comboAltura);
             this.Controls.Add(this.label4);
@@ -195,5 +212,6 @@ namespace projeto_calculadora_windowsforms
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox comboAltura;
         private System.Windows.Forms.TextBox textDiscricao;
+        private System.Windows.Forms.Button butEnter;
     }
 }
