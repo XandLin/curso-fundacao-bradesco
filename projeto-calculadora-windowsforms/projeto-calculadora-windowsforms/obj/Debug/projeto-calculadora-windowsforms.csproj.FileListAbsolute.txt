@@ -1,0 +1,10 @@
+C:\Users\pc\source\repos\projeto-calculadora-windowsforms\projeto-calculadora-windowsforms\bin\Debug\projeto-calculadora-windowsforms.exe.config
+C:\Users\pc\source\repos\projeto-calculadora-windowsforms\projeto-calculadora-windowsforms\bin\Debug\projeto-calculadora-windowsforms.exe
+C:\Users\pc\source\repos\projeto-calculadora-windowsforms\projeto-calculadora-windowsforms\bin\Debug\projeto-calculadora-windowsforms.pdb
+C:\Users\pc\source\repos\projeto-calculadora-windowsforms\projeto-calculadora-windowsforms\obj\Debug\projeto_calculadora_windowsforms.FormDesign.resources
+C:\Users\pc\source\repos\projeto-calculadora-windowsforms\projeto-calculadora-windowsforms\obj\Debug\projeto_calculadora_windowsforms.FormIMC.resources
+C:\Users\pc\source\repos\projeto-calculadora-windowsforms\projeto-calculadora-windowsforms\obj\Debug\projeto_calculadora_windowsforms.Properties.Resources.resources
+C:\Users\pc\source\repos\projeto-calculadora-windowsforms\projeto-calculadora-windowsforms\obj\Debug\projeto-calculadora-windowsforms.csproj.GenerateResource.cache
+C:\Users\pc\source\repos\projeto-calculadora-windowsforms\projeto-calculadora-windowsforms\obj\Debug\projeto-calculadora-windowsforms.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\projeto-calculadora-windowsforms\projeto-calculadora-windowsforms\obj\Debug\projeto-calculadora-windowsforms.exe
+C:\Users\pc\source\repos\projeto-calculadora-windowsforms\projeto-calculadora-windowsforms\obj\Debug\projeto-calculadora-windowsforms.pdb
